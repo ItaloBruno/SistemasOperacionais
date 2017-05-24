@@ -1,0 +1,13 @@
+﻿Janela:
+    instanciarJanela();
+    instanciarbotões();
+    while(true)
+    {
+        açõesDoCliente();
+    }
+
+instaciarBotões:
+	instanciarJanela();
+	criaçãoDoCliente();
+        
+

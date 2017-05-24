@@ -1,0 +1,24 @@
+semaphore bar = 3; 
+semaphore mutex = 1;
+int cliente = 0;
+
+processo cliente:
+while(true)
+{
+  down(bar);
+
+  down(mutex);
+  cliente++;
+  up(mutex);
+
+  irBeber();
+  
+  down(mutex);
+  cliente--;
+  
+  if(cliente == 0);
+    up(bar(3));
+  up(mutex);
+
+  irParaCasa();
+}
