@@ -1,4 +1,6 @@
 ﻿# SistemasOperacionais
+Trabalho da 1° Etapa da cadeira de Sistemas Operacionais
+
 Italo 
 -- implementações feitas:
 
